@@ -1,0 +1,70 @@
+- name: Trojan GFW (SNI)
+  type: trojan
+  server: ISI HOST AKUN
+  port: 443
+  password: PASSWORD
+  udp: true
+  sni: ISI BUG
+  skip-cert-verify: true
+  
+- name: Trojan GO/WS (REVERSE)
+  server: ISI BUG
+  port: 443
+  type: trojan
+  password: PASSWORD
+  network: ws
+  sni: ISI HOST AKUN
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /PATH
+    headers:
+        Host: ISI HOST AKUN
+        
+- name: Trojan WS (SNI)
+  server: ISI HOST AKUN
+  port: 443
+  type: trojan
+  password: PASSWORD
+  skip-cert-verify: true
+  sni: ISI BUG
+  network: ws
+  ws-opts:
+    path: /PATH
+    headers:
+      Host: ISI HOST AKUN
+  udp: true
+  
+- name: Trojan XTLS (SNI)
+  server: ISI HOST AKUN
+  port: 443
+  type: trojan
+  password: PASSWORD
+  flow: xtls-rprx-direct
+  skip-cert-verify: true
+  sni: ISI BUG
+  udp: true
+
+- name: Trojan gRPC (SNI)
+  type: trojan
+  server: ISI HOST AKUN
+  port: 443
+  password: PASSWORD
+  udp: true
+  sni: ISI BUG
+  skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: NAMAGRPC
+    
+- name: Trojan gRPC (REVERSE)
+  type: trojan
+  server: ISI BUG
+  port: 443
+  password: PASSWORD
+  udp: true
+  sni: ISI HOST AKUN
+  skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: NAMAGRPC    
