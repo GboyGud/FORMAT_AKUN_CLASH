@@ -1,0 +1,78 @@
+- name: Vmess WS (SNI)
+  type: vmess
+  server: ISI HOST AKUN
+  port: 443
+  uuid: UUID
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ISI BUG
+  network: ws
+  ws-opts:
+    path: /PATH
+    headers:
+      Host: ISI HOST AKUN
+      
+- name: Vmess WS (REVERSE)
+  type: vmess
+  server: ISI BUG
+  port: 443
+  uuid: UUID
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ISI HOST AKUN
+  network: ws
+  ws-opts:
+    path: /PATH
+    headers:
+      Host: ISI HOST AKUN
+      
+- name: Vmess WS Non TLS (REVERSE)
+  type: vmess
+  server: ISI BUG
+  port: 80
+  uuid: UUID
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: false
+  servername: ISI HOST AKUN
+  network: ws
+  ws-opts:
+    path: /PATH
+    headers:
+      Host: ISI HOST AKUN
+      
+- name: Vmess GRPC (SNI)
+  server: ISI HOST AKUN
+  port: 443
+  type: vmess
+  uuid: UUID
+  alterId: 0
+  cipher: auto
+  network: grpc
+  tls: true
+  servername: ISI BUG
+  skip-cert-verify: true
+  grpc-opts:
+    grpc-service-name: NAMAGRPC
+    
+- name: Vmess gRPC (REVERSE)
+  server: ISI BUG
+  port: 443
+  type: vmess
+  uuid: UUID
+  alterId: 0
+  cipher: auto
+  network: grpc
+  tls: true
+  servername: ISI HOST AKUN
+  skip-cert-verify: true
+  grpc-opts:
+    grpc-service-name: NAMAGRPC    
