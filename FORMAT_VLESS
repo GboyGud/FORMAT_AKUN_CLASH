@@ -1,0 +1,72 @@
+
+- name: Vless WS (SNI)
+  server: ISI HOST AKUN
+  port: 443
+  type: vless
+  uuid: UUID
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: ISI BUG
+  network: ws
+  ws-opts:
+    path: /PATH
+    headers:
+      Host: ISI HOST AKUN
+      
+- name: Vless WS (REVERSE)
+  server: ISI BUG
+  port: 443
+  type: vless
+  uuid: UUID
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: ISI HOST AKUN
+  network: ws
+  ws-opts:
+    path: /PATH
+    headers:
+      Host: ISI HOST AKUN
+      
+- name: Vless WS Non TLS (REVERSE)
+  server: ISI BUG
+  port: 80
+  type: vless
+  uuid: 81f1f510-3ca7-4734-8956-0f4fce670af5
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  servername: ISI HOST AKUN
+  network: ws
+  ws-opts:
+    path: /PATH
+    headers:
+      Host: ISI HOST AKUN
+  udp: true
+  
+- name: VLESS GRPC (SNI)
+  type: vless
+  server: ISI HOST AKUN
+  port: 443
+  uuid: UUID
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: ISI BUG
+  network: grpc
+  grpc-opts:
+    grpc-service-name: NAMAGRPC
+    
+- name: VLESS GRPC (REVERSE)
+  type: vless
+  server: ISI BUG
+  port: 443
+  uuid: UUID
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: ISI HOST AKUN
+  network: grpc
+  grpc-opts:
+    grpc-service-name: NAMAGRPC    
