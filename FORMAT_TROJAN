@@ -7,7 +7,7 @@
   udp: true
   sni: ISI BUG
   skip-cert-verify: true
-  ```
+```
   
 - name: Trojan GO/WS (REVERSE)
   server: ISI BUG
