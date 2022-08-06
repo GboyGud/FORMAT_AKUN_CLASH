@@ -1,3 +1,4 @@
+
 - name: Trojan GFW (SNI)
   type: trojan
   server: ISI HOST AKUN
