@@ -1,0 +1,29 @@
+- name: Shadowsocks-WS/V2ray_Plugin
+  type: ss
+  server: ISI_BUG
+  port: 443
+  cipher: ISI_CLIPHER_AKUN
+  password: PASSWORD
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    host: ISI_HOST_AKUN
+    tls: true
+    skip-cert-verify: true
+    path: /PATH
+    mux: false (Beda_Penyedia_Beda_Mux) 
+    headers:
+      custom: ISI_HOST_AKUN
+
+- name: Shadowsocks-TLS
+  type: ss
+  server: ISI_HOST_AKUN
+  port: 443
+  cipher: ISI_CLIPHER_AKUN
+  password: PASSWORD
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: ISI_BUG
