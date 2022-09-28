@@ -30,6 +30,21 @@ Trial & Order PM https://t.me/AfthonPc
     path: /PATH
     headers:
       Host: ISI_HOST_AKUN
+
+- name: Vless TLS (PATH WSS)
+  server: ISI_BUG_IP
+  port: 443
+  type: vless
+  uuid: UUID
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: ISI_BUG_HOST
+  network: ws
+  ws-opts:
+    path: wss://ISI_BUG_HOST/PATH
+    headers:
+      Host: ISI_HOST_AKUN
       
 - name: Vless WS Non TLS (REVERSE)
   server: ISI_BUG_HOST/IP
@@ -62,21 +77,6 @@ Trial & Order PM https://t.me/AfthonPc
     headers:
       Host: ISI_HOST_AKUN
   udp: true
-  
-- name: Vless TLS (PATH WSS)
-  server: ISI_BUG_IP
-  port: 443
-  type: vless
-  uuid: UUID
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: ISI_BUG_HOST
-  network: ws
-  ws-opts:
-    path: wss://ISI_BUG_HOST/PATH
-    headers:
-      Host: ISI_HOST_AKUN
       
 - name: Vless Non TLS (PATH WSS)
   server: ISI_BUG_IP
