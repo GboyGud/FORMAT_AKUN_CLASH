@@ -24,7 +24,7 @@ Trial & Order PM https://t.me/AfthonPc
     headers:
         Host: ISI_HOST_AKUN
         
-- name: Trojan WS (SNI)
+- name: Trojan GO/WS (SNI)
   server: ISI_HOST_AKUN
   port: 443
   type: trojan
