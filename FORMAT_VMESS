@@ -1,9 +1,9 @@
 Kami Memyediakan Akun Vpn Premium Full Service & Full Garansi
 Trial & Order PM https://t.me/AfthonPc
 
-- name: Vmess WS (SNI)
+- name: Vmess WS TLS (REVERSE)
   type: vmess
-  server: ISI HOST AKUN
+  server: ISI_BUG_HOST/IP
   port: 443
   uuid: UUID
   alterId: 0
@@ -11,16 +11,16 @@ Trial & Order PM https://t.me/AfthonPc
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ISI BUG
+  servername: ISI_HOST_AKUN
   network: ws
   ws-opts:
     path: /PATH
     headers:
-      Host: ISI HOST AKUN
+      Host: ISI_HOST_AKUN
       
-- name: Vmess WS (REVERSE)
+- name: Vmess WS TLS (SNI)
   type: vmess
-  server: ISI BUG
+  server: ISI_HOST_AKUN
   port: 443
   uuid: UUID
   alterId: 0
@@ -28,16 +28,33 @@ Trial & Order PM https://t.me/AfthonPc
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ISI HOST AKUN
+  servername: ISI_BUG_HOST
   network: ws
   ws-opts:
     path: /PATH
     headers:
-      Host: ISI HOST AKUN
+      Host: ISI_HOST_AKUN
+    
+- name: Vmess WS TLS (PATH WSS)
+  type: vmess
+  server: ISI_BUG_IP
+  port: 443
+  uuid: UUID
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ISI_BUG_HOST
+  network: ws
+  ws-opts:
+    path: wss://ISI_BUG_HOST/PATH
+    headers:
+      Host: ISI_HOST_AKUN
       
 - name: Vmess WS Non TLS (REVERSE)
   type: vmess
-  server: ISI BUG
+  server: ISI_BUG_HOST/IP
   port: 80
   uuid: UUID
   alterId: 0
@@ -45,15 +62,49 @@ Trial & Order PM https://t.me/AfthonPc
   udp: true
   tls: false
   skip-cert-verify: false
-  servername: ISI HOST AKUN
+  servername: ISI_HOST_AKUN
   network: ws
   ws-opts:
     path: /PATH
     headers:
-      Host: ISI HOST AKUN
+      Host: ISI_HOST_AKUN
+      
+- name: Vmess WS Non TLS (SNI)
+  type: vmess
+  server: ISI_HOST_AKUN
+  port: 80
+  uuid: UUID
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: false
+  servername: ISI_BUG_HOST
+  network: ws
+  ws-opts:
+    path: /PATH
+    headers:
+      Host: ISI_HOST_AKUN
+   
+- name: Vmess WS Non TLS (PATH WSS)
+  type: vmess
+  server: ISI_BUG_IP
+  port: 80
+  uuid: UUID
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: false
+  servername: ISI_BUG_HOST
+  network: ws
+  ws-opts:
+    path: wss://ISI_BUG_HOST/PATH
+    headers:
+      Host: ISI_HOST_AKUN
       
 - name: Vmess GRPC (SNI)
-  server: ISI HOST AKUN
+  server: ISI_HOST_AKUN
   port: 443
   type: vmess
   uuid: UUID
@@ -61,13 +112,13 @@ Trial & Order PM https://t.me/AfthonPc
   cipher: auto
   network: grpc
   tls: true
-  servername: ISI BUG
+  servername: ISI_BUG_HOST
   skip-cert-verify: true
   grpc-opts:
     grpc-service-name: NAMAGRPC
     
 - name: Vmess gRPC (REVERSE)
-  server: ISI BUG
+  server: ISI_BUG_HOST/IP
   port: 443
   type: vmess
   uuid: UUID
@@ -75,7 +126,7 @@ Trial & Order PM https://t.me/AfthonPc
   cipher: auto
   network: grpc
   tls: true
-  servername: ISI HOST AKUN
+  servername: ISI_HOST_AKUN
   skip-cert-verify: true
   grpc-opts:
     grpc-service-name: NAMAGRPC    
