@@ -1,74 +1,121 @@
 Kami Memyediakan Akun Vpn Premium Full Service & Full Garansi
 Trial & Order PM https://t.me/AfthonPc
 
-- name: Vless WS (SNI)
-  server: ISI HOST AKUN
+- name: Vless WS TLS (REVERSE)
+  server: ISI_BUG_HOST/IP
   port: 443
   type: vless
   uuid: UUID
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: ISI BUG
+  servername: ISI_HOST_AKUN
   network: ws
   ws-opts:
     path: /PATH
     headers:
-      Host: ISI HOST AKUN
-      
-- name: Vless WS (REVERSE)
-  server: ISI BUG
+      Host: ISI_HOST_AKUN
+
+- name: Vless WS TLS (SNI)
+  server: ISI_HOST_AKUN
   port: 443
   type: vless
   uuid: UUID
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: ISI HOST AKUN
+  servername: ISI_BUG_HOST
   network: ws
   ws-opts:
     path: /PATH
     headers:
-      Host: ISI HOST AKUN
+      Host: ISI_HOST_AKUN
       
 - name: Vless WS Non TLS (REVERSE)
-  server: ISI BUG
+  server: ISI_BUG_HOST/IP
   port: 80
   type: vless
   uuid: 81f1f510-3ca7-4734-8956-0f4fce670af5
   cipher: auto
   tls: false
   skip-cert-verify: false
-  servername: ISI HOST AKUN
+  servername: ISI_HOST_AKUN
   network: ws
   ws-opts:
     path: /PATH
     headers:
-      Host: ISI HOST AKUN
+      Host: ISI_HOST_AKUN
+  udp: true
+
+- name: Vless WS Non TLS (SNI)
+  server: ISI_HOST_AKUN
+  port: 80
+  type: vless
+  uuid: 81f1f510-3ca7-4734-8956-0f4fce670af5
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  servername: ISI_BUG_HOST
+  network: ws
+  ws-opts:
+    path: /PATH
+    headers:
+      Host: ISI_HOST_AKUN
   udp: true
   
+- name: Vless TLS (PATH WSS)
+  server: ISI_BUG_IP
+  port: 443
+  type: vless
+  uuid: UUID
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: ISI_BUG_HOST
+  network: ws
+  ws-opts:
+    path: wss://ISI_BUG_HOST/PATH
+    headers:
+      Host: ISI_HOST_AKUN
+      
+- name: Vless Non TLS (PATH WSS)
+  server: ISI_BUG_IP
+  port: 80
+  type: vless
+  uuid: 81f1f510-3ca7-4734-8956-0f4fce670af5
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  servername: ISI_BUG_HOST
+  network: ws
+  ws-opts:
+    path: wss://ISI_BUG_HOST/PATH
+    headers:
+      Host: ISI_HOST_AKUN
+  udp: true
+      
 - name: VLESS GRPC (SNI)
   type: vless
-  server: ISI HOST AKUN
+  server: ISI_HOST_AKUN
   port: 443
   uuid: UUID
   udp: true
   skip-cert-verify: true
   tls: true
-  servername: ISI BUG
+  servername: ISI_BUG_HOST
   network: grpc
   grpc-opts:
     grpc-service-name: NAMAGRPC
     
 - name: VLESS GRPC (REVERSE)
   type: vless
-  server: ISI BUG
+  server: ISI_BUG_HOST/IP
   port: 443
   uuid: UUID
   udp: true
   skip-cert-verify: true
   tls: true
-  servername: ISI HOST AKUN
+  servername: ISI_HOST_AKUN
   network: grpc
   grpc-opts:
     grpc-service-name: NAMAGRPC    
