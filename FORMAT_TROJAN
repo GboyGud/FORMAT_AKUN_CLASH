@@ -7,11 +7,11 @@ Trial & Order PM https://t.me/AfthonPc
   port: 443
   password: PASSWORD
   udp: true
-  sni: ISI_BUG
+  sni: ISI_BUG_HOST
   skip-cert-verify: true
  
 - name: Trojan GO/WS (REVERSE)
-  server: ISI_BUG
+  server: ISI_BUG_HOST/IP
   port: 443
   type: trojan
   password: PASSWORD
@@ -30,7 +30,7 @@ Trial & Order PM https://t.me/AfthonPc
   type: trojan
   password: PASSWORD
   skip-cert-verify: true
-  sni: ISI_BUG
+  sni: ISI_BUG_HOST
   network: ws
   ws-opts:
     path: /PATH
@@ -38,7 +38,7 @@ Trial & Order PM https://t.me/AfthonPc
       Host: ISI_HOST_AKUN
   udp: true
   
-- name: Trojan GO WSS
+- name: Trojan GO (PATH WSS)
   server: ISI_BUG_IP
   port: 443
   type: trojan
@@ -59,7 +59,7 @@ Trial & Order PM https://t.me/AfthonPc
   password: PASSWORD
   flow: xtls-rprx-direct
   skip-cert-verify: true
-  sni: ISI_BUG
+  sni: ISI_BUG_HOST
   udp: true
 
 - name: Trojan gRPC (SNI)
@@ -68,7 +68,7 @@ Trial & Order PM https://t.me/AfthonPc
   port: 443
   password: PASSWORD
   udp: true
-  sni: ISI_BUG
+  sni: ISI_BUG_HOST
   skip-cert-verify: true
   network: grpc
   grpc-opts:
@@ -76,7 +76,7 @@ Trial & Order PM https://t.me/AfthonPc
     
 - name: Trojan gRPC (REVERSE)
   type: trojan
-  server: ISI_BUG
+  server: ISI_BUG_HOST/IP
   port: 443
   password: PASSWORD
   udp: true
