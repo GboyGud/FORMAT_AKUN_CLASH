@@ -3,7 +3,7 @@ Trial & Order PM https://t.me/AfthonPc
 
 - name: Shadowsocks-WS/V2ray_Plugin
   type: ss
-  server: ISI_BUG
+  server: ISI_BUG_HOST/IP
   port: 443
   cipher: ISI_CLIPHER_AKUN
   password: PASSWORD
@@ -29,4 +29,4 @@ Trial & Order PM https://t.me/AfthonPc
   plugin: obfs
   plugin-opts:
     mode: tls
-    host: ISI_BUG
+    host: ISI_BUG_HOST
