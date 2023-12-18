@@ -25,9 +25,6 @@
   <img src="https://kasroudra-stats-card.onrender.com/user?user=GboyGud&theme=radical&layout=compact" alt="GitHub Stats">
 </div>
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=GboyGud&show_icons=true&include_all_commits=true&theme=radical&hide_title=true" alt="GitHub Stats">
-</div><br>
-<div align="center">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=GboyGud&repo=FORMAT_AKUN_CLASH&theme=radical">
 </div>    
 
