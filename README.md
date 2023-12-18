@@ -1,16 +1,6 @@
-<!-- HTML dan CSS untuk memberikan efek warna dan mempercantik judul -->
-<h1 style="color: #ff69b4; text-align: center; animation: rainbow-text 2s linear infinite;">Judul Bergerak</h1>
-
-<!-- Keyframes untuk animasi warna pelangi -->
-<style>
-  @keyframes rainbow-text {
-    0% { color: #ff0000; }
-    25% { color: #ff9900; }
-    50% { color: #33cc33; }
-    75% { color: #3399ff; }
-    100% { color: #ff69b4; }
-  }
-</style>
+<marquee behavior="scroll" direction="left">
+  <h1 style="color: #ff69b4;">Judul Bergerak 🚀</h1>
+</marquee>
 
 # KETERANGAN
 <p align="center">
