@@ -3,9 +3,9 @@
     <img src="https://raw.githubusercontent.com/GboyGud/mahavpn/main/images/banner.jpg?sanitize=true"
         height="400" width="600">
     
-<h2 align="center"><u>MAHAVPN-STORE</u></h2>
+<h1 align="center"><u>MAHAVPN-STORE</u></h1>
 
-<h4 align="center"> Share what you know, spark the glow </h4>
+<h2 align="center">Share what you know, spark the glow</h2>
 
 <p align="center">
     <img src="https://img.shields.io/github/stars/GboyGud/mahavpn?style=for-the-badge&color=orange">
@@ -18,16 +18,25 @@
     <img src="https://img.shields.io/badge/Open%20Source-No-orange?style=flat-square">
     <img src="https://img.shields.io/badge/Maintained-Yes-cyan?style=flat-square">
     <img src="https://img.shields.io/badge/Made%20In-Jember, Jawa Timur, Indonesia-green?style=flat-square">
-    <img src="https://img.shields.io/badge/Written%20In-Python-blue?style=flat-square">
-<br>
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=GboyGud&repo=mahavpn&theme=radical">
+    <img src="https://img.shields.io/badge/Written%20In-Yaml-blue?style=flat-square">
 </p>
 
+<div align="center">
+  <img src="https://kasroudra-stats-card.onrender.com/user?user=GboyGud&theme=radical&layout=compact" alt="GitHub Stats">
+</div>
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=GboyGud&show_icons=true&include_all_commits=true&theme=radical&hide_title=true" alt="GitHub Stats">
+</div><br>
+<div align="center">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=GboyGud&repo=FORMAT_AKUN_CLASH&theme=radical">
+</div>    
+
 ### [+] Description
-REPO INI DIBUAT UNTUK MEDIA BELAJAR BAGI MEMBER MAHAVPN. BEBERAPA SCRIPT MEMERLUKAN PASSWORD UNTUK MENJALANKANNYA. ANDA BISA BERGABUNG DENGAN KAMI DI TELEGRAM.
+1. `REVERSE` = Metode bug bolak balik/bug di taruh di server
+2. `SNI` = Metode bug ssl/bug di taruh di SNI
 
 ### [+] Disclaimer 
-Semua tutorial/config yang dibuat tidak untuk dijualbelikan
+Semua format bersasarkan blog.vpngame.com namun dengan beberapa penambahan dan pengeditan agar lebih mudah dipahami
 
 ### [+] SUPPORT ME ON
 <div>
@@ -39,11 +48,3 @@ Semua tutorial/config yang dibuat tidak untuk dijualbelikan
 <div>
   <a href="https://t.me/MahaVPN_Publicgroup" target="_blank"><img src="https://img.shields.io/badge/Grup_Publik-@MahaVPN_Publicgroup-blue?style=for-the-badge&logo=telegram"></a>
 </div>
-
-
-:rocket: **Fitur Baru:** Tambahkan dukungan untuk...
-
-
-1. `REVERSE` = Metode bug bolak balik/bug di taruh di server
-2. `SNI` = Metode bug ssl/bug di taruh di SNI
-3. Semua format bersasarkan blog.vpngame.com namun dengan beberapa penambahan dan pengeditan agar lebih mudah dipahami
