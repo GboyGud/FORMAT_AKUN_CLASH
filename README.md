@@ -1,7 +1,3 @@
-<marquee behavior="scroll" direction="left">
-  <h1 style="color: #ff69b4;">Judul Bergerak 🚀</h1>
-</marquee>
-
 # KETERANGAN
 <p align="center">
     <img src="https://raw.githubusercontent.com/GboyGud/mahavpn/main/images/banner.jpg?sanitize=true"
