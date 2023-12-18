@@ -1,11 +1,5 @@
 # KETERANGAN
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=GboyGud&compact=true)
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=GboyGud&hide_border=true)
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=GboyGud&hide_title=true)
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=GboyGud&hide_icons=true)
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=GboyGud&locale=id)
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=GboyGud&include_all_commits=true)
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=GboyGud&count_private=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=GboyGud&layout=donut)]
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=GboyGud&show_icons=true&include_all_commits=true)
 
 
