@@ -30,14 +30,13 @@
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=GboyGud&repo=FORMAT_AKUN_CLASH&theme=radical">
 </div>
 
-### SUPPORT ME ON
-<div>
+<div style="text-align: center;">
   <a href="https://t.me/MahaVPN_Channel/169" target="_blank"><img src="https://img.shields.io/badge/Price%20list%20VPN%20Premium%20MahaVPN-ff4444"></a>
 </div>
-<div>
+<div style="text-align: center;">
   <a href="https://t.me/AfthonPc" target="_blank"><img src="https://img.shields.io/badge/Contact%20&%20Order%20VPN-@AfthonPc-blue?style=for-the-badge&logo=telegram"></a>
 </div>
-<div>
+<div style="text-align: center;">
   <a href="https://t.me/MahaVPN_Publicgroup" target="_blank"><img src="https://img.shields.io/badge/Grup_Publik-@MahaVPN_Publicgroup-blue?style=for-the-badge&logo=telegram"></a>
 </div>
 
