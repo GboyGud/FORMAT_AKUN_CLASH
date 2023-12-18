@@ -30,7 +30,7 @@
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=GboyGud&repo=FORMAT_AKUN_CLASH&theme=radical">
 </div>
 
-### 🛒 SUPPORT ME ON
+### 🛒 SUPPORT ME ON:
 <div>
   <a href="https://t.me/MahaVPN_Channel/169" target="_blank"><img src="https://img.shields.io/badge/Price%20list%20VPN%20Premium%20MahaVPN-ff4444"></a>
 </div>
