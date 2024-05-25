@@ -1,4 +1,4 @@
-@me = 1436952664
+
 @wahyunurfauzan = 1203952699
 @Aphilia = 1569381164
 @Hrtekno = 1490857731
