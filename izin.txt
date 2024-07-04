@@ -1,4 +1,3 @@
-@me = 1436952664
 @wahyunurfauzan = 1203952699
 @Aphilia = 1569381164
 @Hrtekno = 1490857731
@@ -24,4 +23,3 @@
 @mr_chaplins = 1286742262
 @Zack_y = 555898759
 @dedyrose = 478738053
-@AfthonPc = 1436952664
