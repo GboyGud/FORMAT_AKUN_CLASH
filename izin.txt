@@ -17,7 +17,6 @@
 @Kepoo25 = 5238897802
 @andrexmande = 1889605650
 @Icank123 = 5358953166
-@Alvixnnn = 5442423952
 @si_noob = 5743623406
 @mr_chaplins = 1286742262
 @Zack_y = 555898759
