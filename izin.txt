@@ -11,7 +11,6 @@
 @Axiesgame = 1968689264
 @Moel91 = 5480042556
 @Ehjibb = 7170496930
-@adm_idsphone = 349369864
 @Rahmancheater = 683297671
 @hana_celluler = 5515975181
 @Kepoo25 = 5238897802
